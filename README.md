@@ -27,3 +27,4 @@ Things you may want to cover:
 - make the change in the previous migration file
 - run `rails db:rollback`
 - run `rails db:migrate`
+- Or run `rails db:migrate:redo` to run the two command in one
