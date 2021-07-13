@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Make a change in the migration file (database table)
+- make the change in the previous migration file
+- run `rails db:rollback`
+- run `rails db:migrate`
