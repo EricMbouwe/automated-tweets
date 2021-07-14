@@ -2,7 +2,7 @@
 <%= form_with model: Current.user, url: edit_password_path do |form| %>
   <% if form.object.errors.any? %>
     <div class='alert alert-danger'>
-      <h3><%= pluralize(@user.errors.count, "error") %> stopped you from creating your account:</h3>
+      <h3><%= pluralize(form.object.errors.count, "error") %> stopped you from creating your account:</h3>
       <ul>
         <% form.object.errors.full_messages.each do |message| %>
           <li><%= message %></li>
