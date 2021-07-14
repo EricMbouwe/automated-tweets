@@ -28,3 +28,7 @@ Things you may want to cover:
 - run `rails db:rollback`
 - run `rails db:migrate`
 - Or run `rails db:migrate:redo` to run the two command in one
+
+
+## Generate Password mailer for reset instructions
+- run `rails g mailer Password reset`
