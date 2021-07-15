@@ -37,3 +37,6 @@ application up and running.
 - open /initializer folder
 - create omniauth.rb file
 - add the keys
+
+## Create a twitter account model
+- run ` rails g model TwitterAccount user:belongs_to name username image token secret `
