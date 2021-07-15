@@ -49,6 +49,7 @@ Things you may want to cover:
 
 ## Add omniauth gem
 -run `bundle add omniauth-twitter`
+-run `bundle add omniauth-twitter omniauth-rails_csrf_protection`
 
 ## Add omniauth middleware to the app
 - open /initializer folder

@@ -113,6 +113,9 @@ GEM
     omniauth-oauth (1.2.0)
       oauth
       omniauth (>= 1.0, < 3)
+    omniauth-rails_csrf_protection (1.0.0)
+      actionpack (>= 4.2)
+      omniauth (~> 2.0)
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
@@ -223,6 +226,7 @@ DEPENDENCIES
   hirb (~> 0.7.3)
   jbuilder (~> 2.7)
   listen (~> 3.3)
+  omniauth-rails_csrf_protection (~> 1.0)
   omniauth-twitter (~> 1.4)
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
